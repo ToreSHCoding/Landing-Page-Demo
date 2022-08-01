@@ -1,0 +1,218 @@
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#nav-bar {
+  text-align: center;
+  background-color: black;
+  overflow: hidden;
+  padding: 2px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, .5)
+}
+
+.nav-link {
+  float: right;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Alfa Slab One', sans-serif;
+  background-color: black;
+  border: 5px solid black;
+  margin: 0 auto;
+}
+
+.nav-link:hover {
+  background-color: white;
+  color: black;
+}
+
+.nav-link:active {
+  background-color: white;
+  color: black;
+}
+
+#header-img{
+  float: left;
+  margin:0 auto;
+  height: 100%;
+  width: 100%;
+  max-width: 69px;
+}
+
+figcaption {
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+  float: left;
+  color: white;
+  font-size: 24px;
+  font-family: 'Palette Mosaic', sans-serif;
+  margin: 10px auto;
+  padding: 0px 20px;
+}
+
+#slogan {
+  display: block;
+  text-align: center;
+  margin:0 auto;
+  margin-top: 5%;
+  padding: 20px 0px 0px 0px;
+  font-family: 'Cinzel', cursive;
+  max-width: 800px;
+  box-sizing: border-box;
+}
+
+.email-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#email{
+ margin: 0 auto;
+ margin-bottom: 10px;
+ width:100%;
+ max-width: 300px;
+ height: 40px;
+ box-sizing: border-box;
+ font-size: 16px;
+}
+
+#submit{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  padding: 10px;
+  font-size: 15px;
+  font-family: 'Alfa Slab One', sans-serif;
+  color: white;
+  background-color: black;
+  border-radius: 4px;
+  border: 1px solid white;
+}
+
+#submit:hover{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  padding: 10px;
+  font-size: 15px;
+  font-family: 'Alfa Slab One', sans-serif;
+  color: black;
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid black;
+}
+
+#features {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.feature {
+  max-width: 300px;
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-family: 'Cinzel', Arial;
+}
+
+#divide{
+  max-width: 1300px;
+  display: block;
+  margin: 0 auto;
+}
+
+#videos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  height: 80vh;
+}
+
+#video {
+  border: 15px solid black;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
+#divide-2 {
+  display: block;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+#pricing {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.prices h2 {
+  background-color: gray;
+  color: black;
+  width: 100%;
+  font-size: 25px;
+  font-family: 'Alfa Slab One', sans-serif;
+}
+
+.prices h3 {
+  font-size: 20px;
+  font-family: 'Alfa Slab One', sans-serif;
+}
+
+.prices {
+  max-width: 500px;
+  padding-top: 0px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: white;
+  text-align: center;
+  color: black;
+  font-family: 'Cinzel', Arial;
+}
+
+.prices p{
+  font-size: 18px;
+}
+
+.prices button{
+  padding: 10px 20px;
+  font-size: 23px;
+  margin-bottom: 20px;
+  background-color: black;
+  color: white;
+}
+
+.prices button:hover{
+  padding: 10px 20px;
+  font-size: 23px;
+  margin-bottom: 20px;
+  background-color: gray;
+  color: black;
+}
+
+@media (min-width:600px){
+  font-size:1.25rem;
+}
